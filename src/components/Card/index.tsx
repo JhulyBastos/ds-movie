@@ -1,4 +1,5 @@
 import { Movie } from "@/types/Movie";
+import { Button } from "../Button";
 
 interface CardProps {
   movie: Movie;
@@ -27,7 +28,9 @@ export function Card({ movie }: CardProps) {
         <p>{movie.filme}</p>
       </div>
       <div className="flex justify-center items-center mt-5">
-        <p>meu botao</p>
+        <Button className=" border-2 rounded-3xl text-dark-30 border-dark-30 py-[2px] px-4 hover:bg-dark-30 hover:text-dark-10 hover:font-semibold">
+          Avaliar
+        </Button>
       </div>
     </div>
   );

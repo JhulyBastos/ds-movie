@@ -4,7 +4,7 @@ import { Button } from "@/components/Button";
 import { Input } from "@/components/Input";
 import { movies } from "@/data/movies";
 import { Movie } from "@/types/Movie";
-import { usePathname } from "next/navigation";
+import { usePathname, useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
@@ -14,6 +14,7 @@ export default function RatingPage() {
   const id = pathname.replace("/", "");
   const [movie, setMovie] = useState<Movie>();
   const [score, setScore] = useState(0);
+  const router = useRouter();
   function ratingChanged(score: number) {
     setScore(score);
   }
@@ -77,7 +78,10 @@ export default function RatingPage() {
             >
               Enviar
             </Button>
-            <Button className=" border-2 rounded-3xl text-dark-30 border-dark-30 py-[2px] px-7 hover:bg-dark-30 hover:text-dark-10 hover:font-semibold">
+            <Button
+              onClick={() => router.back()}
+              className=" border-2 rounded-3xl text-dark-30 border-dark-30 py-[2px] px-7 hover:bg-dark-30 hover:text-dark-10 hover:font-semibold"
+            >
               Cancelar
             </Button>
           </div>

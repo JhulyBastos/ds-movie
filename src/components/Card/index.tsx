@@ -11,8 +11,8 @@ export function Card({ movie }: CardProps) {
   const router = useRouter();
   return (
     <div className=" w-full max-w-[200px] h-[336px] mb-10">
-      <div className="flex justify-center  gap-14 w-full max-w-[200px] mb-1">
-        <div className="flex justify-center items-center gap-[2px]">
+      <div className="flex justify-center  gap-14 w-full max-w-[200px] mb-1 ">
+        <div className="flex justify-center items-center gap-[2px] ">
           <img className=" w-4 h-[15px]" src="/assets/svg/star.svg" alt="" />
           <p className="text-dark-40 text-sm">{movie.nota}/5</p>
         </div>

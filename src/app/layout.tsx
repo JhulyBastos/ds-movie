@@ -20,7 +20,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${inter.className} ${roboto.className} bg-brand-color`}>
+      <body
+        className={`${inter.className} ${roboto.className}  w-full h-screen bg-brand-color`}
+      >
         {children}
       </body>
     </html>

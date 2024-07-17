@@ -71,7 +71,7 @@ export default function RatingPage() {
               isHalf={true}
             />
           </div>
-          <div className="flex flex-col justify-center gap-2 mt-5">
+          <div className="flex flex-col justify-center gap-2 mt-5 mb-10">
             <Button
               onClick={notify}
               className=" border-2 rounded-3xl text-dark-30 border-dark-30 py-[2px] px-7 hover:bg-dark-30 hover:text-dark-10 hover:font-semibold"

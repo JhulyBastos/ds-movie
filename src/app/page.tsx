@@ -3,7 +3,7 @@ import { movies } from "@/data/movies";
 
 export default function Home() {
   return (
-    <main className="w-full h-screen">
+    <main className="">
       <div className="bg-brand-color w-full h-full">
         <div className="bg-dark-60 mt-6 px-8 py-14">
           <h1 className="text-dark-10 text-5xl font-roboto font-semibold">

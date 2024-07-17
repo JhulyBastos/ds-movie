@@ -66,7 +66,7 @@ export default function RatingPage() {
           <div className="mt-10">
             <ReactStars
               count={5}
-              onChange={(score) => score && ratingChanged(score)}
+              onChange={(score: number) => score && ratingChanged(score)}
               size={50}
               isHalf={true}
             />

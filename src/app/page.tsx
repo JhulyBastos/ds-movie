@@ -12,7 +12,7 @@ export default function Home() {
         </div>
         <div className="grid grid-cols-5 flex-1 w-full h-full place-items-center px-16 py-12">
           {movies.map((movie) => (
-            <Card movie={movie} />
+            <Card key={movie.filme} movie={movie} />
           ))}
         </div>
       </div>

@@ -2,8 +2,6 @@
 
 ## 🛠️ Tecnologias utilizadas:
 
-## Tecnologias Utilizadas
-
 - **NextJS**
 - **React**
 - **TypeScript**

@@ -21,7 +21,7 @@
 1. **Clone o repositório:**
 
 ```bash
-$ git clone <https://github.com/JhulyBastos/ds-movie.git>
+$ git clone https://github.com/JhulyBastos/ds-movie.git
 ```
 
 2. **Instale as dependências do frontend:**

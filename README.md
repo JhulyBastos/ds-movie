@@ -9,7 +9,7 @@
 - **TypeScript**
 - **Tailwind CSS**
 
-## Acesse o site por auqi -> (https://ds-movie.vercel.app/)
+## Acesse o site por aqui -> (https://ds-movie.vercel.app/)
 
 ## 📟 Layout da aplicação:
 
